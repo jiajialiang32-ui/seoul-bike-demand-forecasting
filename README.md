@@ -12,9 +12,6 @@ This project explores demand dynamics in the Seoul public bike-sharing system by
 - Project report and reusable notebook workflow
 
 ## Tech Stack
-Frontend:
-- N/A
-
 Backend:
 - Python
 
