@@ -30,10 +30,20 @@ Other tools and libraries:
 
 ## Demo
 ARIMA result
+
+
 <img width="635" height="329" alt="截屏2026-07-31 下午1 26 42" src="https://github.com/user-attachments/assets/a91c2e77-82d7-4646-a495-d64e957b1c35" />
+
+
 AEIMAX result
+
+
 <img width="628" height="332" alt="截屏2026-07-31 下午1 27 52" src="https://github.com/user-attachments/assets/db124ef5-0b09-40f5-8ed7-fc1fc25948dd" />
+
+
 Random forest result
+
+
 <img width="638" height="327" alt="截屏2026-07-31 下午1 28 13" src="https://github.com/user-attachments/assets/2ee3029e-b6d9-4e16-9366-1239cd0dcfa3" />
 
 ## Background and Problem
