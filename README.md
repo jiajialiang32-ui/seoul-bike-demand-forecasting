@@ -1,29 +1,39 @@
-# Urban Micro-Mobility Demand Forecasting and Feature Importance Analysis: A Case Study of Seoul Bike Sharing
+# Seoul Bike Demand Forecasting and Feature Importance Analysis
 
-Short one-sentence description: This project predicts Seoul bike-sharing demand and identifies the key factors driving demand variation using ARIMA/ARIMAX and Random Forest analysis.
+This project predicts daily Seoul bike-sharing demand and identifies the key factors driving demand variation using ARIMA/ARIMAX time-series forecasting and Random Forest feature-importance analysis.
 
 ## Summary
-This project explores demand dynamics in the Seoul public bike-sharing system by combining time-series forecasting with machine learning feature importance analysis. It aims to understand how historical demand patterns and external conditions such as temperature influence future bike demand.
+This project studies urban micro-mobility demand in Seoul by combining forecasting with interpretable machine learning. It uses historical usage patterns and environmental variables to estimate future bike demand while highlighting the most influential predictors.
+
+## Skills Applied
+- Time-series forecasting with ARIMA/ARIMAX
+- Python data analysis and visualization
+- Machine learning with Random Forest regression
+- Feature importance interpretation for urban mobility analytics
 
 ## Features
-- Daily demand forecasting using ARIMA and ARIMAX models
-- Feature importance analysis through Random Forest regression
-- Exploratory data analysis on Seoul bike-sharing usage patterns
-- Project report and reusable notebook workflow
+- Daily bike demand forecasting with ARIMA and ARIMAX
+- Random Forest-based feature importance analysis
+- Exploratory analysis of demand and weather-related patterns
+- Reusable notebook workflow for reporting and model comparison
 
 ## Tech Stack
+Frontend:
+- N/A
+
 Backend:
 - Python
 
 Database:
-- CSV-based dataset (`SeoulBikeData.csv`)
+- CSV dataset (`SeoulBikeData.csv`)
 
-Other tools and libraries:
+Tools & Libraries:
 - pandas
 - numpy
 - matplotlib
 - statsmodels
 - scikit-learn
+- Jupyter Notebook
 
 ## Demo
 ARIMA result
@@ -44,19 +54,19 @@ Random forest result
 <img width="638" height="327" alt="截屏2026-07-31 下午1 28 13" src="https://github.com/user-attachments/assets/2ee3029e-b6d9-4e16-9366-1239cd0dcfa3" />
 
 ## Background and Problem
-Seoul bike-sharing demand is strongly affected by environmental and temporal factors, making accurate forecasting difficult for planning and operations. This project addresses the need for demand prediction and interpretable feature analysis to support better resource allocation and service management.
+Seoul bike-sharing demand is highly affected by weather, seasonal effects, and temporal usage patterns. Accurate prediction helps operators allocate bikes efficiently, reduce shortages, and support planning decisions. This project addresses the need for both accurate forecasting and model interpretability.
 
 ## Architecture
-The workflow begins with data loading and preprocessing, followed by time-series forecasting using ARIMA/ARIMAX and predictive modeling with Random Forest. The notebook structure separates data preparation, model fitting, result visualization, and feature ranking into distinct analysis sections.
+The workflow begins with loading the Seoul bike-sharing dataset, followed by preprocessing, exploratory analysis, and feature preparation. Forecasting is performed with ARIMA/ARIMAX models, while Random Forest is used to rank the variables contributing most strongly to demand prediction. The notebook outputs clean visualizations and comparative results.
 
 ## How to Run
 ```bash
-git clone https://github.com/username/repository.git
-cd project-folder
+git clone https://github.com/yourname/your-repo.git
+cd project-directory
 
 # install dependencies
-pip install -r requirements.txt
+pip install -r code/requirements.txt
 
-# start program
-python main.py
+# run the notebook workflow
+jupyter notebook code/ARIMA.ipynb
 ```
